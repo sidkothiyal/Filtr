@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class ImagePickActivity extends AppCompatActivity {
 
     private static final int SELECT_PICTURE_GALLERY = 1;
+    private static final int SELECT_PICTURE_CAMERA = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +27,28 @@ public class ImagePickActivity extends AppCompatActivity {
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PICTURE_GALLERY);
     }
 
+    public void fetchCamera(View view) {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, SELECT_PICTURE_CAMERA);
+        }
+
+    }
+
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             if (requestCode == SELECT_PICTURE_GALLERY) {
                 Uri uri = data.getData();
                 //Toast.makeText(getApplicationContext(), "This works!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.putExtra("imageUri", uri.toString());
-                startActivity(intent);
             }
+            else if(requestCode == SELECT_PICTURE_CAMERA) {
+                Uri uri = data.getData();
+                intent.putExtra("imageUri", uri.toString());
+
+            }
+            startActivity(intent);
         }
     }
 }

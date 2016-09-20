@@ -26,16 +26,10 @@
         <!--tools:context="com.jitesh.filtr.MainActivity">-->
     <!--</RelativeLayout>-->
 
-    <!--<ListView-->
-        <!--android:id="@+id/listView"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="0dip"-->
-        <!--android:layout_weight="3"></ListView>-->
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/my_recycler_view"
-        android:scrollbars="vertical"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dip"
+        android:layout_weight="3"></ListView>
 
 </LinearLayout>
