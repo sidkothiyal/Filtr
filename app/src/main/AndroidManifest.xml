@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jitesh.filtr">
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -10,17 +16,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/LoginTheme">
+            android:theme="@style/Theme"></activity>
+        <activity
+            android:name=".ImagePickActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".SaveActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/Theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImagePickActivity"></activity>
     </application>
 
 </manifest>
