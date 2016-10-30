@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_243f6046f19dbb4bc3b2e29c38b6df9baad33ff4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9813ad90de345e889a9aca0dd80da281027bdf98">
+        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8a193a165507bfbbf90728ac787b9335d2826fbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,57 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_3cad46f8471b73fdd1b9fd13ce5dca53b7e34ad5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_4a0f8867a93d9f27dcdfb1693c52a3bef270bb42\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_8a0edc037a030e472e3d5bf894dcd73673d6e116\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_243f6046f19dbb4bc3b2e29c38b6df9baad33ff4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="cf8d74fc97c460cc11e0a81cebc9434ad8a71538">
-        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8a193a165507bfbbf90728ac787b9335d2826fbb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
         <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_66d802a472d80100ef9a7880e4c6443810548879\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_3cad46f8471b73fdd1b9fd13ce5dca53b7e34ad5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -133,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="63bd2f679768db6bbee5ed50cb2b66dd70d0326d">
+        sha1="9de97240ec9310e3b2659449b8134a475c52a82e">
         <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2c4d3f7c712752eccf99468d0217a8f94334e4db\classes.dex" />
     </item>
     <item
@@ -147,12 +129,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_4a0f8867a93d9f27dcdfb1693c52a3bef270bb42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="045be695d968dd707691cc55d23746dbf8cf569a">
         <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ce65bf73e42265059c4f99550fb3484a6632bd1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Siddharth Kothiyal\Desktop\Filtr-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_8a0edc037a030e472e3d5bf894dcd73673d6e116\classes.dex" />
     </item>
     <item
         is-multidex="true"
