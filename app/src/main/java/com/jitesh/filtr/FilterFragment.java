@@ -11,6 +11,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -32,7 +33,7 @@ public class FilterFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.filter_fragment, container, false);
 
         ArrayList<Filter> listFilters = new ArrayList<>();
@@ -42,17 +43,15 @@ public class FilterFragment extends Fragment {
             listFilters.add(filter);
         }
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerViewMain);
-        ImageAdapter imageAdapter = new ImageAdapter(context, listFilters, imageLink, new ImageAdapter.OnItemClickListener() {
-            @Override public void onItemClick(View view, int position) {
-                if(position == 0){
-
-                    uri = Uri.parse(imageLink); // parsing String into Uri, load the uri
-                    // make changes on to the bitmap
-                    onRecyclerViewPress.setUri(uri); // after changes are made, the uri is sent to the mainActivity from here, so that from there it can call the ImageFragment and reload it
-                }
-            }
-        });
+        ImageAdapter imageAdapter = new ImageAdapter(context, listFilters, imageLink);
         recyclerView.setAdapter(imageAdapter);
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(context, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+                        Toast.makeText(context, "Hello " + Integer.toString(position),Toast.LENGTH_SHORT ).show();
+                    }
+                })
+        );
         recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.HORIZONTAL));
 
         return view;

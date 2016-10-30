@@ -9,10 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-/**
- * Created by Siddharth Kothiyal on 27-10-2016.
- * Loading ImageFilter on the RelativeLayout, the RelativeLayout is the container for this
- */
 
 public class ImageFragment extends Fragment {
 
